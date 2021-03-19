@@ -1,0 +1,13 @@
+*.rel
+*.swp
+*.asm
+*.lst
+*.sym
+*.lk
+*.map
+*.noi
+*.8xp
+*.bin
+*.ihx
+*.zip
+.vscode

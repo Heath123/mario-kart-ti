@@ -194,7 +194,7 @@ bool getScreenPixel(byte x, byte y) {
                 -angles16[element][y - horizon][0],
                 -angles16[element][y - horizon][1]
             );
-        } else if (index < angleWidth * 2) {
+        } else if (index < angleWidth * 4) {
             // Return 270 degree rotated position
             return samplePixel(
                 -angles16[element][y - horizon][1],
@@ -226,7 +226,7 @@ bool getScreenPixel(byte x, byte y) {
                 -angles8[element][y - horizon - sixteenBitHeight][0],
                 -angles8[element][y - horizon - sixteenBitHeight][1]
             );
-        } else if (index < angleWidth * 2) {
+        } else if (index < angleWidth * 4) {
             // Return 270 degree rotated position
             return samplePixel(
                 -angles8[element][y - horizon - sixteenBitHeight][1],
